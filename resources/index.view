@@ -1,0 +1,56 @@
+<!---------------------------------------------------------------->
+<!-- Cold Park Clockface 1.0.0 -->
+<!-- Start: 02 November 2021 -->
+<!-- Chris Merpaw -->
+<!---------------------------------------------------------------->
+
+<svg viewport-fill="gray">
+  <!-- image found here: https://www.instagram.com/p/CNVgyZ-Lh8L/ -->
+  <!-- It's my own -->
+  <image width="100%" height="100%" href="img/cold_park_blur.png" />
+  
+  <use href="#app-gradient-background" class="app-gradient-background application-fill" apply-style="at-use" opacity="0.3">
+  </use>
+  
+  <arc x="10%" y="10%" width="80%" height="80%" fill="white"
+        arc-width="3" start-angle="0" sweep-angle="360" opacity="0.5" />
+  
+  <g id="analogC">
+    <g>
+      <image width="100%" height="100%" href="img/clockmarks.png" />
+      <arc x="31%" y="31%" width="38%" height="38%" fill="white"
+        arc-width="3" start-angle="0" sweep-angle="360" opacity="0.1" />
+    </g>
+
+    <text id="t12" />
+    <text id="t9" />
+    <text id="t6" />
+    <text id="t3" />
+
+    <text id="t24" />
+    <text id="t21" />
+    <text id="t18" />
+    <text id="t15" />
+
+    <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
+      <rect x="$-4" y="-110" width="6" height="110" fill="white" opacity="0.5"/>
+    </g>
+    <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+      <rect x="$-6" y="-75" width="8" height="75" fill="white" opacity="0.5"/>
+    </g>
+    <g id="secs" pointer-events="visible" transform="translate(50%,50%)">
+      <rect x="$-2" y="-120" width="4" height="140" fill="slategray" />
+    </g>
+
+    <circle cx="168" cy="168" r="4" fill="darkgray" opacity="1" />
+    <arc x="161" y="161" width="14" height="14" fill="slategray"
+        arc-width="3" start-angle="0" sweep-angle="360" opacity="1" />
+  </g>
+  
+  <g id="digitalC">
+    <text id="digiLabel" />
+  </g>
+    <text id="ampmLabel" />
+  
+  <circle id="clockBack" cx="50%" cy="50%" r="40%" fill="white" opacity="0.1" pointer-events="visible"/>
+</svg>
