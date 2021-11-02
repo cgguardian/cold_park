@@ -1,5 +1,7 @@
 # Modern Cold Park
 
+Versa 3 and Sense
+
 Fitbit gallery page: https://gallery.fitbit.com/details/8ca455b4-4a67-4ae0-87b0-8ade2525ae0e
 
 A simple clockface, with both analog and digital versions to use.
